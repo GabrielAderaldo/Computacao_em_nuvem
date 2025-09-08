@@ -1,0 +1,42 @@
+# Arquivos de Log
+*.log
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de build do Gradle
+.gradle
+build/
+
+# Diretórios de output da IDE
+out/
+
+# Arquivos do IntelliJ IDEA 
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos do Eclipse (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# Arquivos do NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos de Wrapper do Gradle (não ignorar)
+!gradle/wrapper/gradle-wrapper.jar
